@@ -95,7 +95,12 @@ lvim.plugins = {
         "folke/trouble.nvim",
         cmd = "TroubleToggle",
     },
+    {
+        "ggandor/leap.nvim",
+    }
 }
+
+require('leap').add_default_mappings()
 
 -- generic LSP settings
 
