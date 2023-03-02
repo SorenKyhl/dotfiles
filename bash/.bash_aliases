@@ -24,7 +24,7 @@ export hdd=/media/skyhl/localBackup
 alias tmux="TERM=screen-256color-bce tmux"
 
 # projects
-alias ticg='cd ~/Documents/TICG-chromatin'
+alias ticg='pushd ~/Documents/TICG-chromatin'
 alias ticg-src='pushd ~/Documents/TICG-chromatin/src'
 alias ticg-cp='cp ~/Documents/TICG-chromatin/src/TICG-engine .'
 alias ticg-cp-debug='cp ~/Documents/TICG-chromatin/src/TICG-debug .'
