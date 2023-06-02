@@ -97,11 +97,15 @@ lvim.plugins = {
     },
     {
         "ggandor/leap.nvim",
+    },
+    {
+        "ray-x/lsp_signature.nvim",
     }
 }
 
 require('leap').add_default_mappings()
 
+require "lsp_signature".setup() -- show function signatures
 -- generic LSP settings
 
 -- -- make sure server will always be installed even if the server is in skipped_servers list
